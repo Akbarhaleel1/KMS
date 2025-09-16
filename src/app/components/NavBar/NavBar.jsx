@@ -1,8 +1,8 @@
-
 'use client'
 import React from 'react'
 import { Menu, X } from 'lucide-react'
 import Link from 'next/link';
+import Image from 'next/image'; // Import the Image component
 
 // NavItem Component
 const NavItem = ({ text, link = "/", className = "" }) => (
@@ -30,9 +30,11 @@ const NavBar = () => {
         <div className="font-bold flex items-center">
           <Link href="/">
             <Image 
-              src="https://i.postImage .cc/TYQghNSb/synx-up-01-Yb-N9-XRn8-LOi5-J9-Qb.png"
+              src="https://i.postimg.cc/TYQghNSb/synx-up-01-Yb-N9-XRn8-LOi5-J9-Qb.png"
               alt="logo"
               className="w-24 lg:w-36 h-auto"
+              width={144} // Add width prop
+              height={48} // Add height prop
             />
           </Link>
         </div>
