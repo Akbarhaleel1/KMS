@@ -20,8 +20,15 @@ const MobileAccessoriesSections = () => {
                   <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
                     <div className="relative">
                       <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-                      <Image  src="https://5.imImage .com/data5/SELLER/Default/2023/4/302536400/ZM/GS/AI/119108805/140375-600x600-500x500.jpg" alt="Premium Mobile Phone" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
-                    </div>
+                      <Image
+                        src="https://5.imimg.com/data5/SELLER/Default/2023/4/302536400/ZM/GS/AI/119108805/140375-600x600-500x500.jpg"
+                        alt="Premium Mobile Phone"
+                        width={128}
+                        height={160}
+                        className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30"
+                        unoptimized
+
+                      />                    </div>
                   </div>
                 </div>
 
@@ -103,7 +110,15 @@ const MobileAccessoriesSections = () => {
                   <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
                     <div className="relative">
                       <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-                      <Image  src="https://thumbs.dreamstime.com/b/gadgets-accessories-gadgets-accessories-isolated-white-background-133429004.jpg" alt="Premium Accessories" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
+                      <Image
+                        unoptimized
+
+                        src="https://thumbs.dreamstime.com/b/gadgets-accessories-gadgets-accessories-isolated-white-background-133429004.jpg"
+                        alt="Premium Accessories"
+                        width={128}
+                        height={160}
+                        className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30"
+                      />
                     </div>
                   </div>
                 </div>
@@ -456,11 +471,16 @@ const LandingPage = () => {
                     {/* Main Product Image */}
                     <div className="relative mb-6 group">
                       <div className="w-32 md:w-48 h-44 md:h-64 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-2xl shadow-xl flex items-center justify-center group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30">
-                        <Image 
+                        <Image
+                          unoptimized
+
                           src="https://i.ibb.co/JRKHX2w4/Screenshot-2025-08-16-004908.png"
                           alt="KMS 9990 Products"
-                          className="w-24 md:w-32 h-32 md:h-48 object-cover rounded-xl shadow-lg"
+                          width={128}   // ~w-32
+                          height={192}  // ~h-48
+                          className="object-cover rounded-xl shadow-lg"
                         />
+
                       </div>
 
                       {/* Golden Sparkle Effects */}
