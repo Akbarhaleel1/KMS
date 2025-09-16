@@ -29,8 +29,8 @@ const NavBar = () => {
 
         <div className="font-bold flex items-center">
           <Link href="/">
-            <img
-              src="https://i.postimg.cc/TYQghNSb/synx-up-01-Yb-N9-XRn8-LOi5-J9-Qb.png"
+            <Image 
+              src="https://i.postImage .cc/TYQghNSb/synx-up-01-Yb-N9-XRn8-LOi5-J9-Qb.png"
               alt="logo"
               className="w-24 lg:w-36 h-auto"
             />

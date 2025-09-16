@@ -1,7 +1,8 @@
 'use client'
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Smartphone, Headphones, ShoppingCart, User, Search, Heart, Star, ArrowLeft, ArrowRight, Plus, Instagram, Facebook, Twitter, Mail, Phone, MapPin, Crown, Sparkles, Gift, Play, Pause, Volume2, Check, Award, Shield, Truck, Clock, ChevronDown, Menu, X, Globe, Package, Users, Target, BarChart3, Handshake } from 'lucide-react';
+import { Smartphone, Headphones, ShoppingCart, User, Search, Heart, Mail, Phone, MapPin, Crown, Sparkles, Gift, Play, Pause, Volume2, Check, Award, Shield, Truck, Clock, ChevronDown, Menu, X, Globe, Package, Users, Target, BarChart3, Handshake } from 'lucide-react';
+import Image from 'next/image'
 
 const MobileAccessoriesSections = () => {
   return (
@@ -19,7 +20,7 @@ const MobileAccessoriesSections = () => {
                   <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
                     <div className="relative">
                       <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-                      <img src="https://5.imimg.com/data5/SELLER/Default/2023/4/302536400/ZM/GS/AI/119108805/140375-600x600-500x500.jpg" alt="Premium Mobile Phone" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
+                      <Image  src="https://5.imImage .com/data5/SELLER/Default/2023/4/302536400/ZM/GS/AI/119108805/140375-600x600-500x500.jpg" alt="Premium Mobile Phone" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
                     </div>
                   </div>
                 </div>
@@ -102,7 +103,7 @@ const MobileAccessoriesSections = () => {
                   <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
                     <div className="relative">
                       <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-                      <img src="https://thumbs.dreamstime.com/b/gadgets-accessories-gadgets-accessories-isolated-white-background-133429004.jpg" alt="Premium Accessories" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
+                      <Image  src="https://thumbs.dreamstime.com/b/gadgets-accessories-gadgets-accessories-isolated-white-background-133429004.jpg" alt="Premium Accessories" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
                     </div>
                   </div>
                 </div>
@@ -455,7 +456,7 @@ const LandingPage = () => {
                     {/* Main Product Image */}
                     <div className="relative mb-6 group">
                       <div className="w-32 md:w-48 h-44 md:h-64 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-2xl shadow-xl flex items-center justify-center group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30">
-                        <img
+                        <Image 
                           src="https://i.ibb.co/JRKHX2w4/Screenshot-2025-08-16-004908.png"
                           alt="KMS 9990 Products"
                           className="w-24 md:w-32 h-32 md:h-48 object-cover rounded-xl shadow-lg"
@@ -680,10 +681,10 @@ const LandingPage = () => {
                       <h3 className="text-2xl font-bold text-white mb-3 font-arabic">رؤية مؤسسينا</h3>
                       <p className="text-lg text-gray-300 mb-4">Our Founders Vision</p>
                       <p className="text-sm text-yellow-400 font-arabic leading-relaxed">
-                        "خالد محمد، مانوج سوريندران، سهيل كاروثيداثو"
+                        "&ldquo;خالد محمد، مانوج سوريندران، سهيل كاروثيداثو&rdquo;"
                       </p>
                       <p className="text-xs text-gray-400 italic mt-2">
-                        "Khalid Muhammad, Manoj Surendran, Suhail Karuthedathu"
+                        "&ldquo;Khalid Muhammad, Manoj Surendran, Suhail Karuthedathu&rdquo;"
                       </p>
                       <p className="text-sm text-gray-300 mt-4">
                         Together, they created KMS 9990 with a singular vision: to connect global markets through trust and reliability.
