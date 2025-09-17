@@ -20,6 +20,7 @@ const NavItem = ({ text, link = "/", className = "" }) => (
   </Link>
 )
 
+  
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
