@@ -529,16 +529,8 @@ const LandingPage = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 animate-fadeIn" style={{ animationDelay: '1s' }}>
-                <button className="bg-gradient-to-r from-yellow-500 to-amber-500 text-black px-8 py-4 rounded-full hover:scale-105 transition-all duration-300 shadow-xl shadow-yellow-500/30 group font-semibold">
-                  <span className="flex items-center space-x-2">
-                    <ShoppingCart className="w-5 h-5 group-hover:animate-bounce" />
-                    <span className="font-arabic">تسوق الآن</span>
-                    <span>Shop Now</span>
-                  </span>
-                </button>
-                <button className="border-2 border-yellow-500 text-yellow-400 px-8 py-4 rounded-full hover:bg-yellow-500 hover:text-black transition-all duration-300 shadow-lg shadow-yellow-500/20">
-                  <span className="font-arabic">اعرف المزيد</span> Learn More
-                </button>
+             
+                
               </div>
             </div>
 
