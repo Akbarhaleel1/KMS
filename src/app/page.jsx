@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Smartphone, Headphones, ShoppingCart, User, Search, Heart, Star, ArrowLeft, ArrowRight, Plus, Instagram, Facebook, Twitter, Mail, Phone, MapPin, Crown, Sparkles, Gift, Play, Pause, Volume2, Check, Award, Shield, Truck, Clock, ChevronDown, Menu, X, Globe, Package, Users, Target, BarChart3, Handshake } from 'lucide-react';
 import Image from 'next/image'
+import Link from 'next/link';
 const MobileAccessoriesSections = () => {
   return (
     <div className="bg-black">
@@ -11,38 +12,27 @@ const MobileAccessoriesSections = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Product Display - Left Side */}
-            <div className="relative animate-fadeInLeft">
-              <div className="w-full max-w-md mx-auto h-[400px] md:h-[500px] relative group">
-                {/* Main Phone Display with Luxury Design */}
-                <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30">
-                  <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>
-                  <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-                    <div className="relative">
-                      <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-                      <img src="https://5.imimg.com/data5/SELLER/Default/2023/4/302536400/ZM/GS/AI/119108805/140375-600x600-500x500.jpg" alt="Premium Mobile Phone" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Luxury Phone Crown */}
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-20 md:w-28 h-8 md:h-12 bg-gradient-to-b from-yellow-500 to-amber-600 rounded-b-2xl shadow-lg shadow-yellow-500/30"></div>
-
-                {/* Luxury Price Tag */}
-                <div className="absolute bottom-12 left-4 md:left-8 bg-gray-900/95 backdrop-blur-sm rounded-2xl p-3 md:p-4 shadow-xl border border-yellow-500/50 animate-bounce group-hover:scale-110 transition-all duration-300">
-                  <div className="text-xs md:text-sm font-medium text-yellow-400 font-arabic">هاتف فاخر</div>
-                  <div className="text-xs text-green-400 font-medium font-arabic">متوفر</div>
-                </div>
-
-                {/* Floating Icons */}
-                <div className="absolute top-16 -right-4 animate-bounce" style={{ animationDelay: '0.5s', animationDuration: '2s' }}>
-                  <Smartphone className="w-6 h-6 text-yellow-400" />
-                </div>
-                <div className="absolute top-32 -left-6 animate-bounce" style={{ animationDelay: '1.5s', animationDuration: '2.5s' }}>
-                  <Heart className="w-4 h-4 text-amber-400 fill-current" />
-                </div>
-                <Sparkles className="absolute top-8 left-8 w-8 h-8 text-yellow-400 animate-pulse" />
-              </div>
+    <div className="relative animate-fadeInLeft">               
+      <div className="w-full max-w-md mx-auto h-[400px] md:h-[500px] relative group">                 
+        {/* Main Phone Display with Luxury Design */}                 
+        <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30 overflow-hidden">                   
+          <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>                   
+          
+          {/* Full Size Image */}
+          <div className="absolute inset-0 p-2">
+            <div className="relative w-full h-full">
+              <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
+              <img 
+                src="https://5.imimg.com/data5/SELLER/Default/2023/4/302536400/ZM/GS/AI/119108805/140375-600x600-500x500.jpg" 
+                alt="Premium Mobile Phone" 
+                className="relative w-full h-full object-cover rounded-xl shadow-lg border border-yellow-500/30" 
+              />
             </div>
+          </div>
+        </div>               
+      </div>             
+    </div>
+
 
             {/* Content - Right Side */}
             <div className="animate-fadeInRight">
@@ -97,15 +87,15 @@ const MobileAccessoriesSections = () => {
             <div className="relative animate-fadeInRight order-1 lg:order-2">
               <div className="w-full max-w-md mx-auto h-[400px] md:h-[500px] relative group">
                 {/* Main Accessories Display */}
-                <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30">
-                  <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>
-                  <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-                    <div className="relative">
-                      <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-                      <img src="https://thumbs.dreamstime.com/b/gadgets-accessories-gadgets-accessories-isolated-white-background-133429004.jpg" alt="Premium Accessories" className="relative h-32 md:h-40 w-24 md:w-32 object-cover rounded-xl shadow-lg border border-yellow-500/30" />
-                    </div>
-                  </div>
-                </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30 overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>
+  <div className="absolute inset-0 p-2">
+    <div className="relative w-full h-full">
+      <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
+      <img src="https://thumbs.dreamstime.com/b/gadgets-accessories-gadgets-accessories-isolated-white-background-133429004.jpg" alt="Premium Accessories" className="relative w-full h-full object-cover rounded-xl shadow-lg border border-yellow-500/30" />
+    </div>
+  </div>
+</div>
 
                 {/* Luxury Crown */}
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-20 md:w-28 h-8 md:h-12 bg-gradient-to-b from-yellow-500 to-amber-600 rounded-b-2xl shadow-lg shadow-yellow-500/30"></div>
@@ -386,9 +376,7 @@ const LandingPage = () => {
     <div className="text-2xl font-bold bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 bg-clip-text text-transparent font-arabic">
       KMS 9990
     </div>
-    <div className="text-sm font-light text-yellow-400 tracking-[0.3em]">
-      WHOLESALE & DISTRIBUTION
-    </div>
+
   </div>
 </div>
 
@@ -491,7 +479,7 @@ const LandingPage = () => {
               </h1>
               <h2 className="text-2xl md:text-2xl lg:text-3xl font-light text-gray-200 mb-8">
                 <span className="inline-block animate-slideUp">Your Global Wholesale</span>{' '}
-                <span className="inline-block animate-slideUp" style={{ animationDelay: '0.2s' }}>and Distribution Partner</span>{' '}
+                <span className="inline-block animate-slideUp" style={{ animationDelay: '0.2s' }}>and Distribution</span>{' '}
                 <span className="inline-block italic bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 bg-clip-text text-transparent animate-slideUp" style={{ animationDelay: '0.4s' }}>Partner</span>
               </h2>
 
@@ -582,17 +570,6 @@ const LandingPage = () => {
 
                       <div className="text-base md:text-lg text-yellow-400 font-medium font-arabic">متوفر بالجملة</div>
                       <p className="text-sm text-gray-400">Available Wholesale</p>
-                    </div>
-
-                    {/* Action Buttons */}
-                    <div className="flex items-center space-x-4">
-                      <button className="bg-gradient-to-r from-yellow-500 to-amber-500 text-black px-4 md:px-6 py-2 md:py-3 rounded-full hover:scale-105 transition-all duration-300 shadow-lg shadow-yellow-500/30 group flex items-center space-x-2 font-semibold">
-                        <ShoppingCart className="w-4 md:w-5 h-4 md:h-5 group-hover:animate-bounce" />
-                        <span className="font-arabic text-sm md:text-base">أضف للسلة</span>
-                      </button>
-                      <button className="border-2 border-yellow-500 text-yellow-400 p-2 md:p-3 rounded-full hover:bg-yellow-500 hover:text-black transition-all duration-300">
-                        <Heart className="w-4 md:w-5 h-4 md:h-5" />
-                      </button>
                     </div>
                   </div>
 
@@ -957,9 +934,7 @@ const LandingPage = () => {
               <div className="relative w-full max-w-lg mx-auto h-[500px]">
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-900/90 via-black/80 to-gray-900/90 rounded-3xl backdrop-blur-sm border border-yellow-500/30 shadow-2xl shadow-yellow-500/20 overflow-hidden p-8 flex flex-col justify-center">
                   <div className="text-center mb-8">
-                    <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-amber-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <Handshake className="w-10 h-10 text-black" />
-                    </div>
+                 
                     <h3 className="text-2xl font-bold text-white mb-3 font-arabic">انضم إلى شبكة شركائنا</h3>
                     <p className="text-lg text-gray-300">Join Our Partner Network</p>
                   </div>
@@ -1016,14 +991,19 @@ const LandingPage = () => {
             <div className="lg:col-span-2 animate-fadeInLeft">
               <div className="flex items-center space-x-3 mb-8">
                 <div className="relative w-14 md:w-16 h-14 md:h-16">
-                  <div className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-amber-500 rounded-full animate-pulse opacity-30"></div>
-                  <div className="relative w-full h-full bg-gradient-to-br from-yellow-500 to-amber-600 rounded-full flex items-center justify-center shadow-xl shadow-yellow-500/30">
-                    <Crown className="w-8 h-8 text-black" />
-                  </div>
+                          <Link href="/">
+            <Image 
+              src="https://i.ibb.co/KcDsZJYn/KMS-logo-removebg-preview.png"
+              alt="logo"
+              className="w-24 lg:w-36 h-auto"
+              width={144} // Add width prop
+                      height={48} // Add height prop
+                      unoptimized
+            />
+          </Link>
                 </div>
                 <div>
                   <div className="text-2xl md:text-3xl font-bold font-arabic text-yellow-400">KMS 9990</div>
-                  <div className="text-base md:text-lg font-light text-gray-300 tracking-[0.3em]">WHOLESALE & DISTRIBUTION</div>
                 </div>
               </div>
 
@@ -1033,12 +1013,6 @@ const LandingPage = () => {
               </p>
 
               <div className="space-y-4">
-                <div className="flex items-center space-x-4">
-                  <div className="w-8 md:w-10 h-8 md:h-10 bg-gradient-to-br from-yellow-500/30 to-amber-500/30 rounded-full flex items-center justify-center">
-                    <Mail className="w-4 md:w-5 h-4 md:h-5 text-yellow-400" />
-                  </div>
-                  <span className="text-sm md:text-base text-gray-300">info@kms9990.com</span>
-                </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="w-8 md:w-10 h-8 md:h-10 bg-gradient-to-br from-yellow-500/30 to-amber-500/30 rounded-full flex items-center justify-center">
@@ -1083,8 +1057,8 @@ const LandingPage = () => {
           <div className="border-t border-yellow-500/20 mt-16 pt-8">
             <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
               <div className="text-gray-400 text-center lg:text-left">
-                <p className="font-arabic text-yellow-400 text-sm md:text-base">© 2024 KMS 9990. جميع الحقوق محفوظة</p>
-                <p className="text-sm md:text-base">&copy; 2024 KMS 9990 Wholesale & Distribution. All rights reserved. Delivering Quality, Building Trust, Expanding Global Trade.</p>
+                <p className="font-arabic text-yellow-400 text-sm md:text-base">© 2025 KMS 9990. جميع الحقوق محفوظة</p>
+                <p className="text-sm md:text-base">&copy; 2025 KMS 9990 Wholesale & Distribution. All rights reserved. Delivering Quality, Building Trust, Expanding Global Trade.</p>
               </div>
 
               <div className="flex items-center space-x-4 md:space-x-8">
@@ -1094,33 +1068,7 @@ const LandingPage = () => {
               </div>
             </div>
 
-            {/* Payment Methods */}
-            <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 mt-8 pt-8 border-t border-yellow-500/20">
-              <span className="text-gray-500 text-sm font-arabic">مدعوم بـ:</span>
-              <div className="flex items-center space-x-4">
-                {['VISA', 'MC', 'AMEX', 'PayPal'].map((method, index) => (
-                  <div key={index} className="px-4 py-2 bg-gradient-to-br from-gray-900/80 to-black/90 border border-yellow-500/30 rounded-lg text-xs font-semibold text-yellow-400 hover:bg-gradient-to-br hover:from-yellow-500/20 hover:to-amber-500/20 transition-colors duration-300 shadow-lg">
-                    {method}
-                  </div>
-                ))}
-              </div>
-            </div>
 
-            {/* Certifications */}
-            <div className="flex items-center justify-center space-x-8 mt-6 pt-6 border-t border-yellow-500/10">
-              <div className="flex items-center space-x-2">
-                <Award className="w-5 h-5 text-yellow-400" />
-                <span className="text-xs text-gray-400 font-arabic">معتمد من هيئة الجودة</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Shield className="w-5 h-5 text-yellow-400" />
-                <span className="text-xs text-gray-400">SSL Secured</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Truck className="w-5 h-5 text-yellow-400" />
-                <span className="text-xs text-gray-400 font-arabic">توصيل عالمي</span>
-              </div>
-            </div>
           </div>
         </div>
       </footer>
