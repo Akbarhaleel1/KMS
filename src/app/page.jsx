@@ -12,26 +12,26 @@ const MobileAccessoriesSections = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Product Display - Left Side */}
-    <div className="relative animate-fadeInLeft">               
-      <div className="w-full max-w-md mx-auto h-[400px] md:h-[500px] relative group">                 
-        {/* Main Phone Display with Luxury Design */}                 
-        <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30 overflow-hidden">                   
-          <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>                   
-          
-          {/* Full Size Image */}
-          <div className="absolute inset-0 p-2">
-            <div className="relative w-full h-full">
-              <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-              <img 
-                src="https://5.imimg.com/data5/SELLER/Default/2023/4/302536400/ZM/GS/AI/119108805/140375-600x600-500x500.jpg" 
-                alt="Premium Mobile Phone" 
-                className="relative w-full h-full object-cover rounded-xl shadow-lg border border-yellow-500/30" 
-              />
+            <div className="relative animate-fadeInLeft">
+              <div className="w-full max-w-md mx-auto h-[400px] md:h-[500px] relative group">
+                {/* Main Phone Display with Luxury Design */}
+                <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30 overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>
+
+                  {/* Full Size Image */}
+                  <div className="absolute inset-0 p-2">
+                    <div className="relative w-full h-full">
+                      <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
+                      <img
+                        src="https://i.ibb.co/x8z5WTSf/Apple-or-Samsung.jpg"
+                        alt="Premium Mobile Phone"
+                        className="relative w-full h-full object-cover rounded-xl shadow-lg border border-yellow-500/30"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>               
-      </div>             
-    </div>
 
 
             {/* Content - Right Side */}
@@ -87,15 +87,15 @@ const MobileAccessoriesSections = () => {
             <div className="relative animate-fadeInRight order-1 lg:order-2">
               <div className="w-full max-w-md mx-auto h-[400px] md:h-[500px] relative group">
                 {/* Main Accessories Display */}
-            <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30 overflow-hidden">
-  <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>
-  <div className="absolute inset-0 p-2">
-    <div className="relative w-full h-full">
-      <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
-      <img src="https://thumbs.dreamstime.com/b/gadgets-accessories-gadgets-accessories-isolated-white-background-133429004.jpg" alt="Premium Accessories" className="relative w-full h-full object-cover rounded-xl shadow-lg border border-yellow-500/30" />
-    </div>
-  </div>
-</div>
+                <div className="absolute inset-0 bg-gradient-to-b from-yellow-900/90 via-black/80 to-yellow-900/90 rounded-3xl shadow-2xl shadow-yellow-500/20 group-hover:scale-105 transition-all duration-500 animate-float border border-yellow-500/30 overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-t from-transparent to-yellow-500/10 rounded-3xl"></div>
+                  <div className="absolute inset-0 p-2">
+                    <div className="relative w-full h-full">
+                      <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/20 to-amber-500/30 rounded-xl blur-sm"></div>
+                      <img src="https://i.ibb.co/C3NK5h31/lap-jpeg.jpg" alt="Premium Accessories" className="relative w-full h-full object-cover rounded-xl shadow-lg border border-yellow-500/30" />
+                    </div>
+                  </div>
+                </div>
 
                 {/* Luxury Crown */}
                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-20 md:w-28 h-8 md:h-12 bg-gradient-to-b from-yellow-500 to-amber-600 rounded-b-2xl shadow-lg shadow-yellow-500/30"></div>
@@ -359,26 +359,26 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             {/* Luxury Logo - Compact */}
-           <div className="flex items-center space-x-4 group cursor-pointer">
-  <div className="relative w-20 h-20"> {/* increased size */}
-    {/* Remove gradient BG */}
-    <Image
-      src="https://i.ibb.co/KcDsZJYn/KMS-logo-removebg-preview.png"
-      alt="Crown Icon"
-      width={80}   // control actual logo size
-      height={80}
-      className="object-contain" // keep logo ratio without cropping
-      unoptimized
-    />
-  </div>
+            <div className="flex items-center space-x-4 group cursor-pointer">
+              <div className="relative w-20 h-20"> {/* increased size */}
+                {/* Remove gradient BG */}
+                <Image
+                  src="https://i.ibb.co/KcDsZJYn/KMS-logo-removebg-preview.png"
+                  alt="Crown Icon"
+                  width={80}   // control actual logo size
+                  height={80}
+                  className="object-contain" // keep logo ratio without cropping
+                  unoptimized
+                />
+              </div>
 
-  <div className="text-right">
-    <div className="text-2xl font-bold bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 bg-clip-text text-transparent font-arabic">
-      KMS 9990
-    </div>
+              <div className="text-right">
+                <div className="text-2xl font-bold bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 bg-clip-text text-transparent font-arabic">
+                  KMS 9990
+                </div>
 
-  </div>
-</div>
+              </div>
+            </div>
 
 
             {/* Navigation - Compact */}
@@ -517,8 +517,8 @@ const LandingPage = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 animate-fadeIn" style={{ animationDelay: '1s' }}>
-             
-                
+
+
               </div>
             </div>
 
@@ -609,69 +609,167 @@ const LandingPage = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-yellow-500/5 to-transparent"></div>
 
+        {/* Animated background elements */}
+        <div className="absolute top-20 left-10 w-32 h-32 bg-yellow-500/10 rounded-full blur-xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-10 w-24 h-24 bg-amber-500/10 rounded-full blur-lg animate-pulse delay-1000"></div>
+
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl lg:text-6xl font-light text-white mb-4">
-              <span className="font-arabic">منتجاتنا</span>
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 tracking-wide">
+              <span className="font-arabic bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent">منتجاتنا</span>
             </h2>
-            <h3 className="text-2xl md:text-3xl font-light text-gray-300 mb-4">Our Products</h3>
-            <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full shadow-lg shadow-yellow-400/50 mx-auto"></div>
-            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mt-6">
-              <span className="font-arabic text-yellow-400 block mb-2">مجموعة منتجاتنا مصممة لخدمة الشركات من جميع الأحجام، عبر صناعات متعددة</span>
-              Our product portfolio is designed to serve businesses of all sizes, across multiple industries.
+            <h3 className="text-2xl md:text-4xl font-light text-gray-300 mb-6">Our Products</h3>
+            <div className="w-32 h-1.5 bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-400 rounded-full shadow-lg shadow-yellow-400/50 mx-auto animate-pulse"></div>
+            <p className="text-lg md:text-xl text-gray-300 max-w-4xl mx-auto mt-8 leading-relaxed">
+              <span className="font-arabic text-yellow-400 block mb-3 text-xl">مجموعة منتجاتنا مصممة لخدمة الشركات من جميع الأحجام، عبر صناعات متعددة</span>
+              Our comprehensive product portfolio is designed to serve businesses of all sizes across multiple industries, delivering excellence and innovation.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                titleAr: "العطور والعطور",
-                titleEn: "Perfumes and Fragrances",
-                description: "Exclusive imports of luxury and niche brands, catering to diverse customer preferences across the GCC, India, and international markets."
-              },
-              {
-                titleAr: "حقائب يدوية وإكسسوارات الموضة",
-                titleEn: "Fancy Bags and Fashion Accessories",
-                description: "Wholesale supply of handbags, backpacks, wallets, and travel accessories that combine functionality with global fashion trends."
-              },
-              {
-                titleAr: "الهواتف المحمولة والاكسسوارات",
-                titleEn: "Mobile Phones and Accessories",
-                description: "A complete range of smartphones and accessories, including chargers, protective cases, earphones, and more, from leading international brands."
-              },
-              {
-                titleAr: "أجهزة الكمبيوتر المحمولة وأجهزة الألعاب",
-                titleEn: "Laptops and Gaming Consoles",
-                description: "From business laptops to advanced gaming systems, we deliver technology solutions for work and entertainment."
-              },
-              {
-                titleAr: "مكبرات الصوت والأجهزة الصوتية",
-                titleEn: "Speakers and Audio Devices",
-                description: "Portable speakers, home entertainment systems, and professional-grade sound equipment."
-              },
-              {
-                titleAr: "الشوكولاتة والتمور",
-                titleEn: "Chocolates and Dates",
-                description: "Premium chocolates sourced from global brands and hand-selected dates distributed for retail, hospitality, and gifting markets."
-              },
-              {
-                titleAr: "الإلكترونيات والأجهزة الذكية",
-                titleEn: "Electronics and Smart Devices",
-                description: "A broad portfolio of consumer and household electronics, along with cutting-edge smart technology."
-              },
-              {
-                titleAr: "تخصيص المنتج",
-                titleEn: "Product Customization",
-                description: "With our strong international network, we can deliver tailored products to meet specific business requirements."
-              }
-            ].map((item, index) => (
-              <div key={index} className="p-6 bg-gradient-to-br from-yellow-500/10 to-amber-500/10 rounded-2xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-300 group h-full">
-                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">{item.titleAr}</h4>
-                <h5 className="text-lg font-semibold text-white mb-3">{item.titleEn}</h5>
-                <p className="text-gray-300 text-sm">{item.description}</p>
+            {/* Perfumes and Fragrances */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <img
+                    src="https://i.ibb.co/9Hcwrd44/pexels-karolina-grabowska-4202325.jpg"
+
+                    alt="Perfumes and Fragrances"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">العطور والعطور</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Perfumes and Fragrances</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">Exclusive imports of luxury and niche brands, catering to diverse customer preferences across the GCC, India, and international markets.</p>
               </div>
-            ))}
+            </div>
+
+            {/* Fancy Bags and Fashion Accessories */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <img
+                    src="https://i.ibb.co/HDbSCLMK/fashion-1.png"
+                    alt="Fancy Bags and Fashion Accessories"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">حقائب يدوية وإكسسوارات الموضة</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Fancy Bags and Fashion Accessories</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">Wholesale supply of handbags, backpacks, wallets, and travel accessories that combine functionality with global fashion trends.</p>
+              </div>
+            </div>
+
+            {/* Mobile Phones and Accessories */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <img
+                    src="https://i.ibb.co/ycNmXxxF/mobile-accessories-1.jpg"
+                    alt="Mobile Phones and Accessories"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">الهواتف المحمولة والاكسسوارات</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Mobile Phones and Accessories</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">A complete range of smartphones and accessories, including chargers, protective cases, earphones, and more, from leading international brands.</p>
+              </div>
+            </div>
+
+            {/* Laptops and Gaming Consoles */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <img
+                    src="https://i.ibb.co/xtJfQmSr/pexels-tom-de-monteiller-187832966-13978776.jpg"
+
+                    alt="Laptops and Gaming Consoles"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">أجهزة الكمبيوتر المحمولة وأجهزة الألعاب</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Laptops and Gaming Consoles</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">From business laptops to advanced gaming systems, we deliver technology solutions for work and entertainment.</p>
+              </div>
+            </div>
+
+            {/* Speakers and Audio Devices */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
+                    <img
+                      src="https://i.ibb.co/tpQ7sRZc/pexels-marinko-krsmanovic-700471-2651794.jpg"
+                      alt="Speakers and Audio Devices"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                  </div>
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">مكبرات الصوت والأجهزة الصوتية</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Speakers and Audio Devices</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">Portable speakers, home entertainment systems, and professional-grade sound equipment.</p>
+              </div>
+            </div>
+
+            {/* Chocolates and Dates */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <img
+                    src="https://i.ibb.co/sdnZCRHF/Chocolated-and-dated-1.png"
+                    alt="Chocolates and Dates"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">الشوكولاتة والتمور</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Chocolates and Dates</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">Premium chocolates sourced from global brands and hand-selected dates distributed for retail, hospitality, and gifting markets.</p>
+              </div>
+            </div>
+
+            {/* Electronics and Smart Devices */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <img
+                    src="https://i.ibb.co/zVVPQMj9/HD-jpeg.jpg"
+                    alt="Electronics and Smart Devices"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">الإلكترونيات والأجهزة الذكية</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Electronics and Smart Devices</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">A broad portfolio of consumer and household electronics, along with cutting-edge smart technology.</p>
+              </div>
+            </div>
+
+            {/* Product Customization */}
+            <div className="group relative p-6 bg-gradient-to-br from-yellow-500/10 via-amber-500/10 to-yellow-500/5 rounded-3xl border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20 h-full overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="relative z-10">
+                <div className="w-full h-48 rounded-2xl overflow-hidden mb-6 bg-gradient-to-br from-yellow-500/20 to-amber-500/20">
+                  <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
+                      <img
+                    src="https://i.ibb.co/G4gJw3Tt/drone-3202860.jpg"
+                    alt="Electronics and Smart Devices"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  </div>
+                </div>
+                <h4 className="text-xl font-bold text-yellow-400 mb-2 font-arabic">تخصيص المنتج</h4>
+                <h5 className="text-lg font-semibold text-white mb-4">Product Customization</h5>
+                <p className="text-gray-300 text-sm leading-relaxed">With our strong international network, we can deliver tailored products to meet specific business requirements.</p>
+              </div>
+            </div>
           </div>
+
         </div>
       </section>
 
@@ -934,7 +1032,7 @@ const LandingPage = () => {
               <div className="relative w-full max-w-lg mx-auto h-[500px]">
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-900/90 via-black/80 to-gray-900/90 rounded-3xl backdrop-blur-sm border border-yellow-500/30 shadow-2xl shadow-yellow-500/20 overflow-hidden p-8 flex flex-col justify-center">
                   <div className="text-center mb-8">
-                 
+
                     <h3 className="text-2xl font-bold text-white mb-3 font-arabic">انضم إلى شبكة شركائنا</h3>
                     <p className="text-lg text-gray-300">Join Our Partner Network</p>
                   </div>
@@ -991,16 +1089,16 @@ const LandingPage = () => {
             <div className="lg:col-span-2 animate-fadeInLeft">
               <div className="flex items-center space-x-3 mb-8">
                 <div className="relative w-14 md:w-16 h-14 md:h-16">
-                          <Link href="/">
-            <Image 
-              src="https://i.ibb.co/KcDsZJYn/KMS-logo-removebg-preview.png"
-              alt="logo"
-              className="w-24 lg:w-36 h-auto"
-              width={144} // Add width prop
+                  <Link href="/">
+                    <Image
+                      src="https://i.ibb.co/KcDsZJYn/KMS-logo-removebg-preview.png"
+                      alt="logo"
+                      className="w-24 lg:w-36 h-auto"
+                      width={144} // Add width prop
                       height={48} // Add height prop
                       unoptimized
-            />
-          </Link>
+                    />
+                  </Link>
                 </div>
                 <div>
                   <div className="text-2xl md:text-3xl font-bold font-arabic text-yellow-400">KMS 9990</div>
